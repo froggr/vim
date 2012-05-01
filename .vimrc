@@ -11,6 +11,7 @@ set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 " Let the :Error window pop up automatically
 let g:syntastic_auto_loc_list=1
+let g:syntastic_auto_jump=1
 
 " Turn on syntax highlighting, auto indent
 syntax on
@@ -63,5 +64,4 @@ imap <Tab> <C-R>=SuperTab()<CR>
 
 " Maps jj to <esc>
 inoremap jj <esc>
-
-
+command! W :w
