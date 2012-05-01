@@ -10,3 +10,6 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git@github.com:scrooloose/syntastic
+[submodule "ctrlp.vim"]
+	path = ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim
