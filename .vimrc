@@ -13,6 +13,9 @@ set statusline+=%*
 let g:syntastic_auto_loc_list=1
 let g:syntastic_auto_jump=1
 
+" ctrl.vim settings
+let g:ctrlp_working_path_mode = 1
+
 " Turn on syntax highlighting, auto indent
 syntax on
 filetype plugin indent on
