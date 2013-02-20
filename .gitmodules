@@ -13,18 +13,15 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive
-[submodule "bundle/vim-rails"]
-	path = bundle/vim-rails
-	url = git@github.com:tpope/vim-rails
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript
-[submodule "bundle/vim-scala"]
-	path = bundle/vim-scala
-	url = git@github.com:derekwyatt/vim-scala
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = git@github.com:groenewege/vim-less.git
 [submodule "bundle/vim-markdown"]
 	path = bundle/vim-markdown
 	url = https://github.com/plasticboy/vim-markdown.git
+[submodule "bundle/zencoding-vim"]
+	path = bundle/zencoding-vim
+	url = https://github.com/mattn/zencoding-vim.git
