@@ -25,3 +25,6 @@
 [submodule "bundle/zencoding-vim"]
 	path = bundle/zencoding-vim
 	url = https://github.com/mattn/zencoding-vim.git
+[submodule "bundle/Auto-Pairs"]
+	path = bundle/Auto-Pairs
+	url = git://github.com/vim-scripts/Auto-Pairs.git
