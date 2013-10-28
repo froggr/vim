@@ -6,7 +6,7 @@ Frog's vim setup
 
 Installation:
 
-    git clone git://github.com/nelstrom/dotvim.git ~/.vim
+    git clone git://github.com/froggr/vim.git
 
 Create symlinks:
 
