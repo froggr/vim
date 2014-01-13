@@ -1,4 +1,4 @@
-" Use Vim settings
+" Use Vim settings - in OSX with iTerm2
 set nocompatible
 
 " Pathogen!
@@ -12,6 +12,8 @@ set statusline+=%*
 " Let the :Error window pop up automatically
 let g:syntastic_auto_loc_list=1
 let g:syntastic_auto_jump=1
+let g:syntastic_mode_map={ 'mode': 'active','active_filetypes': [], 'passive_filetypes': ['html']  }
+
 
 " Enable powerline symbols
 let g:Powerline_symbols = 'fancy'
@@ -75,15 +77,14 @@ command! W :w
 let mapleader=","
 nnoremap <Leader>t :! php artisan test <CR>
 
-" resize horzontal split window
-map <C-Left> <C-W>-<C-W>-
-map <C-Right> <C-W>+<C-W>+
+" resize horzontal split window   ^[[1;5A^[[1;5B^[[1;5C^[[1;5D]]]]]]]]
+map <ESC>[1;5C <C-W>><C-W>>
+map <ESC>[1;5D <C-W><<C-W><
 " resize vertical split window
-map <C-m> <C-W>><C-W>>
-map <C-n> <C-W><<C-W><
+map <ESC>[1;5B <C-W>+<C-W>+
+map <ESC>[1;5A <C-W>-<C-W>-
 
 set wildignore+=*vendor*
-
 " Toggle Vexplore with Ctrl-E
 function! ToggleVExplorer()
   if exists("t:expl_buf_num")
