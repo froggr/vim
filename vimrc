@@ -16,9 +16,25 @@ let g:syntastic_mode_map={ 'mode': 'active','active_filetypes': [], 'passive_fil
 
 
 " Enable powerline symbols
+" let g:Powerline_symbols = 'fancy'
+" set encoding=utf-8
+" set t_Co=256
+set guifont=Inconsolatai-dz\ for\ Powerline:h15
 let g:Powerline_symbols = 'fancy'
 set encoding=utf-8
 set t_Co=256
+set term=xterm-256color
+set termencoding=utf-8
+
+
+
+" powerline in macvim
+if has("gui_running")
+   let s:uname = system("uname")
+   if s:uname == "Darwin\n"
+      set guifont=Inconsolata-dz\ for\ Powerline:h15
+   endif
+endif
 
 " Turn on syntax highlighting, auto indent
 syntax on
