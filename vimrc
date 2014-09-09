@@ -61,9 +61,9 @@ set laststatus=2
 set showmatch
 set incsearch
 
-" Solarized colorscheme
+" Solarized slate
 set background=dark
-
+colorscheme slate
 
 " Line numbers
 set number
